@@ -1,0 +1,18 @@
+<h3>Upcoming Shifts</h3>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th class="centered">Start Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @upcoming_shifts.each do |shift| %>
+      <tr>
+        <td><%= link_to shift.date, employee_path(shift.employee) %></td>
+        <td class="centered"><%= shift.start_time.strftime('%r') %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<%= will_paginate @upcoming_shifts, :previous_label => "Previous&nbsp;", :next_label => "&nbsp;Next" %>
