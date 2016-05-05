@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 67272 Creamery Project: Phase 5 Starter
 ---
 
@@ -13,7 +12,3 @@ You can populate the development database with realistic data by first running `
 This phase will take substantially longer than phase 3 and it is recommended that students start early.  
 
 As always, should you or any of your I.M. Force be caught or killed, the Secretary will disavow any knowledge of your actions.  This message will self-destruct in five seconds. Good luck.
-=======
-# Creamery-Final
-Rails 4 app for a Creamery
->>>>>>> 2105afdbbbcd727d0821ca472423d38589a125b5
